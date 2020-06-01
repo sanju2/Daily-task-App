@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 18, 2019 at 09:05 AM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- Generation Time: Jun 01, 2020 at 03:02 PM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -92,7 +92,7 @@ CREATE TABLE `tasks` (
 INSERT INTO `tasks` (`id`, `task`, `iscompleted`, `created_at`, `updated_at`) VALUES
 (1, 'i have do enything', 0, '2019-09-17 13:08:04', '2019-09-18 01:26:45'),
 (2, 'i want to work larvel with bosstrap', 0, '2019-09-17 13:11:40', '2019-09-18 01:26:48'),
-(3, 'My Favourite film is geeth govindm', 1, '2019-09-17 21:50:56', '2019-09-18 01:01:48'),
+(3, 'My Favourite film is geeth govindm', 0, '2019-09-17 21:50:56', '2020-06-01 07:32:18'),
 (4, 'i like play crickect', 1, '2019-09-17 22:40:10', '2019-09-18 01:25:38'),
 (5, 'Tomorrow play computer games', 1, '2019-09-18 01:25:14', '2019-09-18 01:25:17'),
 (6, 'Complete react js', 0, '2019-09-18 01:29:52', '2019-09-18 01:29:52'),
